@@ -5,7 +5,7 @@ export default function Home() {
   const [status, setStatus] = useState("Ready");
 
   function add(cmd) {
-    setSteps([...steps, { cmd, ms: 500 }]);
+    setSteps([...steps, { cmd, ms: 200 }]);
   }
 
   function updateTime(index, value) {
