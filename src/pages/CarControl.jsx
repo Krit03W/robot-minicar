@@ -6,7 +6,7 @@ export default function CarControl() {
   const [showIfModal, setShowIfModal] = useState(false);
 
   function add(cmd) {
-    setSteps([...steps, { cmd, ms: 200 }]);
+    setSteps([...steps, { cmd, ms: 500 }]);
   }
 
   function addIf(choice) {
